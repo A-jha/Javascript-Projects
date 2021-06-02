@@ -28,8 +28,10 @@ const question_ans = [
 const question_title = document.querySelector(".question-title");
 const question_text = document.querySelector(".question-text");
 
-// question_title.firstElementChild.textContent = element.question;
-// question_text.firstElementChild.textContent = element.ans;
+question_title.firstElementChild.textContent = element.question;
+question_text.firstElementChild.textContent = element.ans;
+
+document.createAttribute("div").appendChild;
 
 //traversing the DOM
 // const btns = document.querySelectorAll(".question-btn");
