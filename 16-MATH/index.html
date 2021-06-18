@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <title>Matrick</title>
+  </head>
+  <body class="bg-gray-400">
+    <div class="container-fluid">
+      <header>
+        <h2 class="text-center text-4xl">Matrix Multiplication</h2>
+        <div class="w-40 my-4 bg-red-400 h-3 m-auto"></div>
+      </header>
+      <main>
+        <div class="matrix1 w-2/4 m-auto">
+          <form class="form grid grid-cols-3 gap-4">
+            <input type="number" name="00" id="m100" />
+            <input type="number" name="01" id="m101" />
+            <input type="number" name="02" id="m102" />
+            <input type="number" name="10" id="m110" />
+            <input type="number" name="11" id="m111" />
+            <input type="number" name="12" id="m112" />
+          </form>
+        </div>
+        <div
+          class="text-white text-4xl font-bold w-2/4 m-auto mt-10 text-center"
+        >
+          X
+        </div>
+        <div class="matrix2 w-2/5 m-auto mt-10">
+          <form class="form grid grid-cols-2 gap-4">
+            <input type="number" name="00" id="m200" />
+            <input type="number" name="01" id="m201" />
+            <input type="number" name="10" id="m210" />
+            <input type="number" name="11" id="m211" />
+            <input type="number" name="20" id="m220" />
+            <input type="number" name="21" id="m221" />
+          </form>
+        </div>
+        <div
+          class="text-white text-4xl font-bold w-2/4 m-auto mt-10 text-center"
+        >
+          =
+        </div>
+        <div class="matrix2 w-2/5 m-auto mt-10"></div>
+      </main>
+    </div>
+  </body>
+</html>
