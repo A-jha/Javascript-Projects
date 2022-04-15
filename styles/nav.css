@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 5px;
+}
+
+.logo {
+  font-weight: 800;
+  padding-left: 10px;
+  font-family: Rubik Moonrocks;
+  letter-spacing: 3px;
+}
+
+.linkCont {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 5px;
+}
+
+a:hover {
+  color: rgb(225, 0, 255);
+}
+
+a {
+  text-decoration: none;
+}
+.footer {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 10px 5px;
+}
+@media screen and (max-width: 600px) {
+  .navCont {
+    flex-direction: column;
+  }
+}

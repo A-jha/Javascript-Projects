@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-family: roboto;
+}
+
+p,
+header {
+    padding: .5em 1em;
+}
+
+nav {
+    position: fixed;
+    min-width: 250px;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 32, 32, 0.2);
+    overflow-x: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+
+nav li {
+    padding: 1em 1em 1em 0;
+    margin-bottom: .5em;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #a9c5d6;
+}
+
+a {
+    text-decoration: none;
+    color: #0d334a;
+    font-weight: 600;
+    font-family: ubuntu;
+}
+
+main {
+    display: block;
+}
+
+#main-doc {
+    position: relative;
+    margin-left: 250px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#navbar header {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    background: grey;
+    padding: 1em 0;
+}
+
+#Introduction header {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Introduction li {
+    color: green;
+}
+
+code {
+    color: #243c63;
+    font-family: Inconsolata;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+pre {
+    background: #abb1ba;
+    padding: 1em 2em;
+    margin-right: 30px;
+    box-shadow: inset 1px 1px 1px 1px;
+    border: none;
+    border-radius: 5px;
+    overflow-y: hidden;
+}
+
+@media (max-width:850px) {
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        padding: 0px;
+        margin-bottom: 110px;
+    }
+
+    nav {
+        position: relative;
+        min-width: 0px;
+        top: 0px;
+        left: 0px;
+        width: auto;
+        height: 100%;
+        border: none;
+
+    }
+}
+
+header {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+p {
+    padding: 0 2em;
+}
+
+ul {
+    margin: 1em;
+}
+
+li {
+    padding: 0em 0em;
+}
+
+#CC-Claim {
+    padding-top: 5em;
+    text-align: center;
+    font-size: 1.2rem;
+}

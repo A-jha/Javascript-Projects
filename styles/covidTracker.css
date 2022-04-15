@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+body{
+background-color: aliceblue;
+}
+.header{
+text-align: center;
+font-family: Rubik Moonrocks,
+cursive;
+letter-spacing: 3px;
+}
+.dataCont{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+#updated{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+.cases{
+    margin: 15px;
+    background-color: palegoldenrod;
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 1px 10px 2px yellow;
+    border-radius: 10px;
+}
+.cases span{
+}
+.recovered{
+border-radius: 10px;
+margin: 15px;
+background-color: rgba(10, 200, 10, .5);
+width: 300px;
+height: 150px;
+font-size: 20px;
+text-align: center;
+font-weight: 800;
+display: flex;
+flex-direction: column;
+justify-content: center;
+box-shadow: 2px 1px 10px 2px green;
+}
+.deaths{
+border-radius: 10px;
+margin: 10px;
+background-color: rgba(200, 20, 10, .6);
+width: 300px;
+height: 150px;
+font-size: 20px;
+text-align: center;
+font-weight: 800;
+display: flex;
+flex-direction: column;
+justify-content: center;
+box-shadow: 2px 1px 10px 2px black;
+}
+.visualCont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.visualCont h3{
+    width: 100vw;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.5rem;
+    
+}
+.visual{
+    box-shadow: inset 1px 1px 2px 2px black;
+    max-width: 400px;
+    margin: 20px;
+    padding: 30px;
+    background-color: bisque;
+    border-radius: 10px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
+      integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="../styles/covidTracker.css" />
+    <link rel="stylesheet" href="../styles/nav.css" />
+  </head>
+  <body>
+    <nav class="navCont">
+      <div class="logo">Mini Projects</div>
+      <ul class="linkCont">
+        <li class="link"><a href="../index.html">Projects</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header">
+      <h1>Covid-19 Tracker</h1>
+      <hr />
+    </div>
+    <div id="updated">Last update: 1/1/1111</div>
+    <div class="dataCont" id="dataCont">
+      <div class="cases">
+        <div>Cases</div>
+        <div class="total">Total Cases: <span id="totalCases">1000</span></div>
+        <div class="active">Active Cases: <span id="newCases">100</span></div>
+      </div>
+      <div class="recovered">
+        <div>Recovered</div>
+        <div class="total">
+          Total Recovered: <span id="totalRecovered">10000</span>
+        </div>
+        <div class="newRecovered">
+          New Recovered: <span id="newRecovered">100</span>
+        </div>
+      </div>
+      <div class="deaths">
+        <div>Deaths</div>
+        <div class="total">
+          Total Deaths: <span id="totalDeaths">1000</span>
+        </div>
+        <div class="newDeaths">New Deaths: <span id="newDeaths">1</span></div>
+      </div>
+    </div>
+    <div class="visualCont">
+      <h3>Doughnut Chart Representing the data</h3>
+      <div class="visual">
+        <canvas id="myChart"></canvas>
+      </div>
+      <h3>Pie Chart Representing the data</h3>
+      <div class="visual">
+        <canvas id="myChart1"></canvas>
+      </div>
+    </div>
+    <script src="../script/covidData.js"></script>
+  </body>
+</html>

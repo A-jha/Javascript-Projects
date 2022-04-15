@@ -1,0 +1,130 @@
+body {
+  background-color: rgba(10, 10, 200, 0.1);
+}
+.heading {
+  padding-top: 50px;
+  text-align: center;
+}
+#top {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border-top: 5px solid gold;
+  box-shadow: 2px 2px 2px 1px rgb(34, 255, 0);
+}
+.img {
+  opacity: 0.8;
+  filter: contrast(2);
+  width: 100%;
+}
+.intro {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro h2 {
+  padding-top: 20px;
+}
+#profession {
+  background: rgba(20, 40, 120, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*======Skills Section======**/
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 60vh;
+  text-align: center;
+}
+.ft {
+  background-color: rgb(173, 159, 140);
+  max-width: 300px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px 1px black;
+}
+.bt {
+  background-color: rgb(173, 159, 140);
+  max-width: 300px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px 1px black;
+}
+.p {
+  background-color: rgb(173, 159, 140);
+  max-width: 300px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px 1px black;
+}
+/**====Project========*/
+.projects {
+  min-height: 60vh;
+}
+.projectCards {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.project {
+  margin: 10px;
+  width: 100%;
+  max-width: 300px;
+  background: rgb(223, 210, 187);
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 1px 1px black;
+}
+a {
+  text-decoration: none;
+}
+.project h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.project-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+.project details {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.btn {
+  margin-top: 10px;
+  background: rgba(10, 10, 200, 0.6);
+  color: beige;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.btn:hover {
+  background: rgba(10, 10, 200, 0.8);
+}
+.btn1 {
+  text-align: center;
+  padding: 5px 0px 40px 0px;
+}

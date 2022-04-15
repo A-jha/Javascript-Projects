@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+body{
+    background-color: rgb(233, 233, 148);
+}
+.header {
+    text-align: center;
+    font-family: Rubik Moonrocks,
+        cursive;
+    letter-spacing: 3px;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imgCard{
+    margin: 5px;
+    padding: 5px;
+    background: black;
+    box-shadow: 2px 2px 2px black;
+}
+.imgCard img{
+    width: 100%;
+}
