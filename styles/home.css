@@ -1,50 +1,50 @@
-body{
-    background-color: rgb(247, 245, 171);
+body {
+  background-color: rgb(247, 245, 171);
+  font-size: 1.3rem;
 }
-.header{
-    text-align: center;
+.header {
+  text-align: center;
   padding: 10px 10px;
 }
-.headerText{
-font-family: Rubik Moonrocks, cursive;
+.headerText {
+  font-family: Rubik Moonrocks, cursive;
 }
-.projectCards{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.projectCards {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.project{
-    margin: 10px;
-    width: 100%;
-    max-width: 300px;
-    background: wheat;
-    padding: 20px;
-    color: black;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px black;
+.project {
+  margin: 10px;
+  width: 100%;
+  max-width: 300px;
+  background: wheat;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px black;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.project h3{
-text-align: center;
-padding-bottom: 10px;
+.project h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.project-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.project details {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.btn {
+  margin-top: 10px;
 
-}
-.project-img{
-    width: 100%;
-    border-radius: 10px;
-}
-.project details{
-    padding-left: 10PX;
-    padding-top: 10px;
-}
-.btn{
-    margin-top: 10px;
-
-    text-align: center;
-    padding: 10px;
-    border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
 }

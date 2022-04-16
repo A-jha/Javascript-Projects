@@ -1,9 +1,11 @@
 body {
   background-color: rgba(10, 10, 200, 0.1);
+  font-size: 1.3rem;
 }
 .heading {
   padding-top: 50px;
   text-align: center;
+  letter-spacing: 4px !important;
 }
 #top {
   height: 90vh;
@@ -11,6 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  letter-spacing: 2px;
 }
 .profile-img {
   overflow: hidden;
@@ -19,6 +22,30 @@ body {
   border-radius: 50%;
   border-top: 5px solid gold;
   box-shadow: 2px 2px 2px 1px rgb(34, 255, 0);
+}
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+.socialIcon {
+  margin: 20px;
+}
+.socialIcon i {
+  font-size: 2rem;
+}
+.github {
+  color: black;
+}
+.linkd {
+  color: blue;
+}
+.gmail {
+  color: red;
+}
+.insta {
+  color: red;
 }
 .img {
   opacity: 0.8;
@@ -46,6 +73,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
   min-height: 60vh;
   text-align: center;
 }

@@ -7,14 +7,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/portifolio.css" />
     <link rel="stylesheet" href="./styles/nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav class="navCont">
-      <a href="./index.html"><div class="logo">Avinash Jha</div></a>
+      <a href="./index.html"><div class="logo">Mini Projects</div></a>
       <ul class="linkCont">
-        <li class="link"><a href="../index.html">Projects</a></li>
-        <li class="link"><a href="#about">About</a></li>
-        <li class="link"><a href="#contact">Contact</a></li>
+        <li class="link"><a href="#projects">Projects</a></li>
+        <li class="link"><a href="#top">About</a></li>
+        <li class="link"><a href="./index.html">Home</a></li>
       </ul>
     </nav>
     <section id="top">
@@ -24,6 +31,24 @@
       <div class="intro">
         <h1>Hi, I am Avinash Kumar Jha</h1>
         <h2>I am a <span id="profession">Coder</span></h2>
+      </div>
+      <div class="socialLinks">
+        <a href="https://github.com/A-jha" target="blank"
+          ><div class="socialIcon github">
+            <i class="fa-brands fa-github"></i></div
+        ></a>
+        <a href="https://www.linkedin.com/in/avvinashjha/" target="blank">
+          <div class="socialIcon linkd">
+            <i class="fa-brands fa-linkedin"></i>
+          </div> </a
+        ><a href="mailto:avvinashjha@gmail.com" target="blank"
+          ><div class="socialIcon gmail">
+            <i class="fa-solid fa-at"></i>
+          </div> </a
+        ><a href="https://www.instagram.com/avvinash.jha/" target="blank"
+          ><div class="socialIcon insta">
+            <i class="fa-brands fa-instagram"></i></div
+        ></a>
       </div>
     </section>
     <h3 class="heading">Skills</h3>
@@ -65,7 +90,7 @@
       </div>
     </section>
     <h3 class="heading">Projects</h3>
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="projectCards">
         <div class="project project1">
           <h3>Random Image Gallery</h3>
@@ -78,7 +103,7 @@
               then in a container.
             </p>
           </details>
-          <a href="./gallery.html"> <div class="btn">View</div></a>
+          <a href="./views//gallery.html"> <div class="btn">View</div></a>
         </div>
 
         <div class="project project1">
@@ -91,7 +116,7 @@
               India on Corona Virus data.
             </p>
           </details>
-          <a href="./covidtracker.html"> <div class="btn">View</div></a>
+          <a href="./views/covidtracker.html"> <div class="btn">View</div></a>
         </div>
 
         <div class="project project1">
@@ -112,7 +137,7 @@
       <a href="./views/projects.html"><div class="btn1">View More</div></a>
     </section>
     <section class="footer">
-      <h3>Created By &copy; Avinash Jha For on 15/04/2022</h3>
+      <h3>Created By &copy; Avinash Jha on 15/04/2022</h3>
     </section>
     <script src="./script/portfolio.js"></script>
   </body>
